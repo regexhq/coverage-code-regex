@@ -1,6 +1,7 @@
 ## [![npm][npmjs-img]][npmjs-url] [![mit license][license-img]][license-url] [![build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url]
 
-> Regular expression (regex) for matching ugly code (like `__cov_Ejgcx$XN18CSfmeWn$f7vQ.f['2']++;`) that coverage tools add during the test coverage process.
+> Regular expression (regex) for matching ugly code that coverage tools add during the test process.
+> Like this one `__cov_Ejgcx$XN18CSfmeWn$f7vQ.f['2']++;`
 
 ## Install
 ```bash
