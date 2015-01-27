@@ -1,0 +1,58 @@
+{
+  "name": "coverage-code-regex",
+  "version": "0.0.0",
+  "description": "Regular expression (regex) for matching ugly code (like `__cov_Ejgcx$XN18CSfmeWn$f7vQ.f['2']++;`) that coverage tools add during the test coverage process.",
+  "scripts": {
+    "lint": "jshint index.js && jscs index.js --reporter inline",
+    "test": "mocha",
+    "test-cov": "istanbul cover _mocha",
+    "test-travis": "istanbul cover _mocha --report lcovonly"
+  },
+  "author": {
+    "name": "Charlike Make Reagent",
+    "email": "mameto_100@mail.bg",
+    "url": "https://github.com/tunnckoCore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/regexps/coverage-code-regex.git"
+  },
+  "keywords": [
+    "code",
+    "codes",
+    "cov",
+    "coverage",
+    "coverages",
+    "coveralls",
+    "during",
+    "express",
+    "expression",
+    "expressions",
+    "function",
+    "functions",
+    "lib",
+    "lib-cov",
+    "match",
+    "matching",
+    "name",
+    "process",
+    "re",
+    "regex",
+    "regexp",
+    "regexps",
+    "regular",
+    "test",
+    "tests",
+    "ugly"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/regexps/coverage-code-regex/blob/master/license.md"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul-harmony": "^0.3.1",
+    "mocha": "*",
+    "mocha-lcov-reporter": "^0.0.1"
+  }
+}
