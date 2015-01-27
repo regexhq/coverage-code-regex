@@ -1,7 +1,7 @@
 {
   "name": "coverage-code-regex",
-  "version": "0.0.0",
-  "description": "Regular expression (regex) for matching ugly code (like `__cov_Ejgcx$XN18CSfmeWn$f7vQ.f['2']++;`) that coverage tools add during the test coverage process.",
+  "version": "1.0.0",
+  "description": "Regular expression (regex) for matching ugly code that coverage tools add during the test process. Like this one `__cov_Ejgcx$XN18CSfmeWn$f7vQ.f['2']++;`",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
     "test": "mocha",
