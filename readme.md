@@ -16,7 +16,8 @@ npm test
 ```js
 var coverageCodeRegex = require('coverage-code-regex');
 
-coverageCodeRegex().test('var a = [1,2,3];__cov_Ejgcx$XN18CSfmeWn$f7vQ.f['2']++;var b = 123;');
+var fixture = 'var a = [1,2,3];__cov_Ejgcx$XN18CSfmeWn$f7vQ.f['2']++;var b = 123;';
+coverageCodeRegex().test(fixture);
 //=> true
 
 coverageCodeRegex().test('var a = [1,2,3]; var b = 123;');
