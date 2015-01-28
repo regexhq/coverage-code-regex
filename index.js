@@ -8,5 +8,5 @@
 'use strict';
 
 module.exports = function coverageCodeRegex() {
-  return /(?:__cov_(?:[\w\W\S.,$]{1,999})\.(?:.{1})\[\'(?:\d{1,})\'\]\+\+\;)/;
+  return /(?:__cov_(?:[\w\W\S.,$]{1,22})\.(?:.{1})\[\'(?:\d{1,})\'\]\+\+\;)/;
 };
