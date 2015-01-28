@@ -20,6 +20,15 @@ describe('coverage-code-regex:', function() {
     done();
   });
 
+  it('should return `true` when complex coverage code', function(done) {
+    var fixture = 'var a = [1,2,3];__cov_Ejgcx$XN18CSfmeWn$f7vQ.f[\'2\'][0][3][2]++;var b = 123;';
+    var actual = coverageCodeRegex().test(fixture);
+    var expected = true;
+
+    assert.strictEqual(actual, expected);
+    done();
+  });
+
   it('should return `false` when not match', function(done) {
     var fixture = 'var a = [1,2,3]; var b = 123;';
     var actual = coverageCodeRegex().test(fixture);
