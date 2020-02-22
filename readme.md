@@ -42,17 +42,17 @@ Released under the [`MIT`][license-url] license.
 [npmjs-url]: http://npm.im/coverage-code-regex
 [npmjs-img]: https://img.shields.io/npm/v/coverage-code-regex.svg?style=flat&label=coverage-code-regex
 
-[coveralls-url]: https://coveralls.io/r/regexps/coverage-code-regex?branch=master
-[coveralls-img]: https://img.shields.io/coveralls/regexps/coverage-code-regex.svg?style=flat
+[coveralls-url]: https://coveralls.io/r/regexhq/coverage-code-regex?branch=master
+[coveralls-img]: https://img.shields.io/coveralls/regexhq/coverage-code-regex.svg?style=flat
 
-[license-url]: https://github.com/regexps/coverage-code-regex/blob/master/license.md
+[license-url]: https://github.com/regexhq/coverage-code-regex/blob/master/license.md
 [license-img]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 
-[travis-url]: https://travis-ci.org/regexps/coverage-code-regex
-[travis-img]: https://img.shields.io/travis/regexps/coverage-code-regex.svg?style=flat
+[travis-url]: https://travis-ci.org/regexhq/coverage-code-regex
+[travis-img]: https://img.shields.io/travis/regexhq/coverage-code-regex.svg?style=flat
 
-[daviddm-url]: https://david-dm.org/regexps/coverage-code-regex
-[daviddm-img]: https://img.shields.io/david/regexps/coverage-code-regex.svg?style=flat
+[daviddm-url]: https://david-dm.org/regexhq/coverage-code-regex
+[daviddm-img]: https://img.shields.io/david/regexhq/coverage-code-regex.svg?style=flat
 
 [author-gratipay]: https://gratipay.com/tunnckoCore
 [author-twitter]: https://twitter.com/tunnckoCore
